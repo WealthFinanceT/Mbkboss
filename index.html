@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Profile Card</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- FontAwesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
+    <!-- Feather Icons -->
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons"></script>
+  </head>
+  <body>
+    <div class="card" data-state="#about">
+      <div class="card-header">
+        <div class="card-cover" style="background-image: url('Bg\ image.jpg')"></div>
+        <img class="card-avatar" src="mbk.jpg" alt="avatar" />
+        <h1 class="card-fullname">MBKBOSS</h1>
+        <h2 class="card-jobtitle">PROJECT CATALYST</h2>
+      </div>
+      <div class="card-main">
+        <div class="card-section is-active" id="about">
+          <div class="card-content">
+            <div class="card-subtitle">ABOUT</div>
+            <p class="card-desc">Your go-to business development Manager and Project Catalyst • Also a born marketer that’s dedicated to securing the best future</p>
+          </div>
+          <div class="card-social">
+            <!-- Telegram Icon (FontAwesome) -->
+            <a href="https://t.me/Mbkbosss">
+              <i class="fab fa-telegram"></i>
+            </a>
+
+            <!-- Discord Icon (FontAwesome) -->
+            <a href="https://discord.com/users/@mbkbosss">
+              <i class="fab fa-discord"></i>
+            </a>
+
+            <!-- Twitter Icon (FontAwesome) -->
+            <a href="https://x.com/mbkbosss?s=21">
+              <i class="fab fa-twitter"></i>
+            </a>
+
+            <!-- Instagram Icon (Feather Icons) -->
+            <a href="https://www.instagram.com/mbkbosss">
+              <i data-feather="instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="card-section" id="experience">
+          <div class="card-content">
+            <div class="card-subtitle">WORK EXPERIENCE</div>
+            <div class="card-timeline">
+              <div class="card-item" data-year="2020">
+                <div class="card-item-title">
+                  Founder of 
+                  <a href="https://x.com/CryptoHoodDao" target="_blank" rel="noopener noreferrer">
+                    <span>CryptoHoodDao⚡️</span>
+                  </a>
+                </div>                
+                <div class="card-item-desc">A CryptoHood community</div>
+              </div>
+              <div class="card-item" data-year="2024">
+                <div class="card-item-title">
+                  Creator and content partner with 
+                  <a href="https://x.com/SeedifyFund" target="_blank" rel="noopener noreferrer">
+                    <span>seedify</span>
+                  </a>
+                </div>                
+                <div class="card-item-desc">The Web3 Incubator & Launchpad</div>
+              </div>
+              <div class="card-item" data-year="2024">
+                <div class="card-item-title">A verified Contributor at  
+                  <a href="https://x.com/RhoMarketsHQ" target="_blank" rel="noopener noreferrer">
+                    <span>Rho markets</span>
+                  </a>
+                  </div>
+                <div class="card-item-desc"> The no 1 native lending protocol on scroll</div>
+              </div>
+              <div class="card-item" data-year="2024">
+                <div class="card-item-title">An Alpha writer for 
+                  <a href="https://x.com/Noracleio" target="_blank" rel="noopener noreferrer">
+                    <span>Noracle</span>
+                  </a> 
+                </div>
+                <div class="card-item-desc">An open protocol for predictive gaming and dapps</div>
+                </div>
+                <div class="card-item" data-year="2022">
+                  <div class="card-item-title">
+                    Marketing team <span>@The GengSta</span>
+                    </a>
+                  </div>                
+                  <div class="card-item-desc">A CryptoHood community</div>
+                </div>
+                <div class="card-item" data-year="2022">
+                  <div class="card-item-title">
+                    Community manager at <span>Barbell Bull club</span>
+                    </a>
+                  </div>                
+                  <div class="card-item-desc">A CryptoHood community</div>
+                </div>
+                <div class="card-item" data-year="2024">
+                  <div class="card-item-title">Creator and content partner with
+                    <a href="https://x.com/mbkbosss/status/1856220958169645338?s=46" target="_blank" rel="noopener noreferrer">
+                      <span>Seedworldmeta</span>
+                    </a> 
+                  </div>
+                  <div class="card-item-desc">An open protocol for predictive gaming and dapps</div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card-section" id="contact">
+          <div class="card-content">
+            <div class="card-subtitle">CONTACT</div>
+            <div class="card-contact-wrapper">
+              <div class="card-contact">
+                <i data-feather="map-pin"></i>
+                AKOka Lagos Nigeria
+              </div>
+              <div class="card-contact">
+                <i data-feather="phone"></i>
+                <a href="tel:+2349037208686">+2349037208686</a>
+              </div>              
+              <div class="card-contact">
+                <i data-feather="mail"></i>
+                <a href="mailto:Olamidemubarak43@gmail.com">Olamidemubarak43@gmail.com</a>
+              </div>              
+              <a href="https://t.me/Mbkbosss" target="_blank">
+                <button class="contact-me">WORK TOGETHER</button>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="card-buttons">
+          <button data-section="#about" class="is-active">ABOUT</button>
+          <button data-section="#experience">EXPERIENCE</button>
+          <button data-section="#contact">CONTACT</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+      // Initialize Feather Icons
+      feather.replace();
+    </script>
+  </body>
+</html>
